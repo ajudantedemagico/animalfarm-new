@@ -1,12 +1,12 @@
-# 🐖 Dilema dos Prisioneiros: Animal Farm Edition
+# 🐖 Dilema dos Prisioneiros: Animal Farm 
 Este é um jogo interativo inspirado na teoria dos jogos, mais especificamente no **Dilema dos Prisioneiros**, com uma temática baseada no universo de *Animal Farm* (A Revolução dos Bichos).
 
-## 🎮 Como jogar
+## Como jogar
 
 O jogador assume o papel de fazendeiro e o computador o papel dos animais da fazenda, ambos podem escolher entre
 
-- 🤝 Cooperar
-- 🔪 Trair
+- Cooperar
+- Trair
 
 As decisões são feitas secretamente, e os resultados dependem da combinação escolhida por ambos. O objetivo é somar a maior pontuação possível, refletindo confiança ou traição.
 
@@ -19,20 +19,20 @@ As decisões são feitas secretamente, e os resultados dependem da combinação 
 | Cooperar  | Trair      | Traído perde, traidor ganha     |
 | Trair     | Trair      | Ambos perdem pontos             |
 
-## 🛠️ Tecnologias usadas
+## Tecnologias usadas
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
 
-## 📚 Conceitos envolvidos
+## Conceitos envolvidos
 
-- Teoria dos Jogos
-- Dilema dos Prisioneiros
+- Teoria dos jogos
+- Dilema dos prisioneiros
 - Ética e estratégia em decisões
-- Narrativa inspirada em *Animal Farm*
+- Narrativa inspirada em *Animal Farm* do George Orwell
 
-## 🚀 Como executar
+## Como executar
 
 1. Clone o repositório:
    ```bash
