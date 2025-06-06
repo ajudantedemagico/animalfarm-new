@@ -4,7 +4,7 @@ function play(playerChoice) {
   let message = `Você escolheu <strong>${traduzir(playerChoice)}</strong>. Os animais escolheram <strong>${traduzir(computerChoice)}</strong>.<br><br>`;
   let scores = getScores(playerChoice, computerChoice);
 
-  message += `Resultado: Você recebe <strong>${scores.player}</strong> ponto(s) e o outro porco recebe <strong>${scores.computer}</strong>.`;
+  message += `Resultado: Você recebe <strong>${scores.player}</strong> ponto(s) e os animais recebem <strong>${scores.computer}</strong>.`;
 
   document.getElementById('result').innerHTML = message;
 }
