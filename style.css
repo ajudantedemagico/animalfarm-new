@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f1e6;
+  background-image:url("../assets/img/fundo_pagina1.png");
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 9px 8px rgba(0,0,0,0.2);
+  padding: 40px;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.choices button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choices button:hover {
+  background-color: #ddd;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 18px;
+}

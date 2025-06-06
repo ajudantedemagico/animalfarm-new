@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Animal Farm Game</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/galinha-favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img class="Logo"src="assets/img/Logo-AnimalFarm.png">
+    </nav>
+  <div class="container">
+    <h1>Sua fazenda foi tomada por uma revolta</h1>
+    <p>Os animais, cansados da submissão, se organizaram e exigem liberdade</p>
+    <p>Diante da revolta, você precisa tomar uma decisão: cooperar com os animais em busca de um novo acordo… ou trai-los e manter o controle à força.</p>
+    
+    <div class="choices">
+      <button onclick="play('cooperate')">Cooperar</button>
+      <button onclick="play('betray')">Trair</button>
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
